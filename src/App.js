@@ -28,6 +28,7 @@ function App() {
               </>
             }
           />
+          <Route path="/" element={<Home />} />
           <Route path="/gms/" element={<Home />} />
           <Route path="/gms/home" element={<Home />} />
           <Route path="/gms/login" element={<LoginPage />} />
